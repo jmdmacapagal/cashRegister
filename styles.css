@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 250px;
+    margin: auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#owed,
+#tendered {
+    text-align: end;
+    margin: 5px 0;
+    padding: 3px;
+    height: 30px;
+    font-family: sans-serif;
+}
+
+.changeDisplay {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.changeDisplay p {
+    font-size: 20px;
+}
+
+.denominationDisplay {
+    text-align: center;
+}
+
+.denominationDisplay #denomination {
+    text-align: start;
+}
+
+#denomination {
+    list-style-type: none;
+    padding: 5px;
+}
+
+#denomination li {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Cash Register</title>
+</head>
+<body>
+    <div class="app">
+        <div class="container">
+            <input type="number" placeholder="P - Cash Owed" id="owed" step="0.25">
+            <input type="number" placeholder=" P - Cash Tendered" id="tendered" step="0.25">
+            <div class='changeDisplay'>
+                <h3>Change</h3> <span><p id="change"></p></span>
+            </div>
+            
+            <div class="denominationDisplay">
+                <h4>Denomination Breakdown</h4>
+                <ul for="" id="denomination"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
